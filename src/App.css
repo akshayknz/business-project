@@ -1,0 +1,32 @@
+/**Menu styles START*/
+.menu {
+  bottom: 3vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.home {
+  margin: 0px 12px;
+}
+
+.menu-item {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 9px 0 #00000014;
+}
+
+.menu-item:nth-child(1),
+.menu-item:nth-child(3) {
+  height: 60px;
+  width: 60px;
+}
+/**Menu styles END*/
